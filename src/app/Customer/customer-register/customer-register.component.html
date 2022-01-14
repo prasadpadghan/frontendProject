@@ -1,0 +1,269 @@
+<div class="customerRegister">
+  <div class="container-fluid border border-dark roundede">
+    <h1 class="fs-1 mt-2 p-1 text-center">Customer Registeration Form</h1>
+    <h3 class="text-center text-danger p-2">
+      * Please fill all the neccesory fields given below
+    </h3>
+    <div class="col-12">
+      <form
+        #fromData="ngForm"
+        action=""
+        class="float-center"
+        (ngSubmit)="data(fromData.value)"
+      >
+        <h3 class="ps-5 ms-5">Customer Details:</h3>
+        <div class="d-flex justify-content-evenly pb-2">
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              name="cfName"
+              id="f1"
+              minlength="3"
+              maxlength="15"
+              #cfName="ngModel"
+              placeholder="First Name"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="f1">First name</label>
+            <span class="error" *ngIf="cfName.invalid && cfName.touched"
+              >*Please Enter Your First Name</span
+            >
+          </div>
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              name="clName"
+              minlength="3"
+              maxlength="20"
+              #clName="ngModel"
+              id="cln"
+              placeholder="Last Name"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="cln"> Last Name</label>
+            <span class="error" *ngIf="clName.invalid && clName.touched"
+              >*Please Enter Your First Name</span
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-evenly pb-2">
+          <div class="form-floating col-4">
+            <input
+              type="email"
+              name="cemail"
+              id="ce"
+              email
+              #cemail="ngModel"
+              placeholder="Enter your email"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="ce"> Email</label>
+            <span class="error" *ngIf="cemail.invalid && cemail.touched"
+              >*Please enter valid email</span
+            >
+          </div>
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="cun"
+              name="cuName"
+              #cuName="ngModel"
+              placeholder="Enter unique Username"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="cun"> Username</label>
+            <span class="error" *ngIf="cuName.invalid && cuName.touched"
+              >*Please enter Username between 8-15 char.</span
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-evenly pb-2">
+          <div class="form-floating col-4">
+            <input
+              type="password"
+              id="cps"
+              name="cpass"
+              minlength="8"
+              maxlength="15"
+              #cpass="ngModel"
+              placeholder="Password"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="cps">Password</label>
+            <span class="error" *ngIf="cpass.invalid && cpass.touched"
+              >*please enter password between 8-15 charecters</span
+            >
+          </div>
+          <div class="form-floating col-4">
+            <input
+              type="password"
+              id="ccps"
+              name="capass"
+              #capass="ngModel"
+              minlength="8"
+              maxlength="15"
+              placeholder="comfirm Password"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="ccps">Confirm Password</label>
+            <span
+              class="error"
+              *ngIf="
+                cpass.value != capass.value && capass.invalid && capass.touched
+              "
+              >*please confirm your password</span
+            >
+          </div>
+        </div>
+
+        <h3 class="ps-5 ms-5">Address:</h3>
+        <div class="d-flex justify-content-evenly pb-2">
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="aln1"
+              name="al1"
+              placeholder="address line 1"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="cps">line no:1</label>
+          </div>
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="aln2"
+              name="al2"
+              placeholder="address line 2"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="aln2">line no:2</label>
+          </div>
+        </div>
+        <div class="d-flex justify-content-evenly pb-2">
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="aa"
+              name="area"
+              placeholder="area"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="aa">Area:</label>
+          </div>
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="ci"
+              name="city"
+              placeholder="city"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="ci">city:</label>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-evenly pb-2">
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="zip"
+              name="pincode"
+              placeholder="pincode"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="zip">PinCode</label>
+          </div>
+          <div class="form-floating col-4">
+            <input
+              type="text"
+              id="st"
+              name="satate"
+              placeholder="state"
+              class="form-control"
+              ngModel
+              required
+            />
+            <label for="st">State:</label>
+          </div>
+        </div>
+        <div class="d-flex pb-2">
+          <h3 class="ps-5 ms-5">Gender:</h3>
+          <div class="genderRadio col-4">
+            <div class="form-check" name="gender">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                id="flexRadioDefault2"
+                checked
+                ngModel
+                required
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                id="flexRadioDefault1"
+                ngModel
+                required
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Female
+              </label>
+            </div>
+          </div>
+          <h3 class="ps-5 ms-5">Age:</h3>
+          <div class="age col-4">
+            <div class="form-floating">
+              <input
+                type="text"
+                id="cage"
+                name="age"
+                placeholder="age"
+                class="form-control"
+                ngModel
+                required
+              />
+              <label for="cage">Age:</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group text-center pb-2">
+          <input
+            type="submit"
+            name="submit"
+            [disabled]="fromData.invalid"
+            class="btn btn-warning"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+.customerRegister {
+  margin-left: 8%;
+  margin-top: 3%;
+  margin-right: 8%;
+}
+.container-fluid {
+  background-color: rgb(170, 214, 240);
+}
+
+.container-fluid input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: darkcyan;
+}
+input:hover {
+  background-color: rgba(208, 238, 247, 0.808);
+}
+
+.genderRadio {
+  margin-left: 1.5%;
+}
+.age {
+  margin-left: 3%;
+}
+
+.error{
+  color: red;
+  font-size: 0.75rem;
+}
+
+input.ng-touched.ng-invalid{
+  border:2px solid red;
+}
+
+input.ng-touched.ng-valid{
+  border:2px solid green;
+}

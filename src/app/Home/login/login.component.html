@@ -1,0 +1,82 @@
+<div class="login mt-5">
+  <div class="container-fluid w-100 align-self-center">
+    <div class="col-6 border border-success rounded bg-secondary bg-opacity-10">
+      <div class="row">
+        <div class="col-8 mainForm">
+          <h1 class="mt-2 fs-1 text-success text-center">Login Form</h1>
+          <form class="form text-center" action="">
+            <div class="form-floating m-2 rounded">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput1"
+                placeholder="username"
+              />
+              <label for="floatingInput1">Username</label>
+            </div>
+            <div class="form-floating m-2">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingInput2"
+                placeholder="password"
+              />
+              <label for="floatingInput2">Password</label>
+            </div>
+            <div class="text-start ms-2">
+              <a href="#" class="link-danger">Forgot Pasaword</a>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="d-flex justify-content-evenly">
+                  <div class="form-check col-3">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Customer
+                    </label>
+                  </div>
+                  <div class="form-check col-3">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Employee
+                    </label>
+                  </div>
+                  <div class="form-check col-3">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault3"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault3">
+                      Admin
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="submit" class="btn btn-success m-3" />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-link" (click)="registerpage()" >
+                New...? Register yourself here
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
