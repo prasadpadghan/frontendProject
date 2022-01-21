@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 // import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,19 +21,21 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     NavbarComponent,
     HomeComponent,
     MainComponent,
-    ErrorComponent
+    ErrorComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
     ProductsModule,
     FormsModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    
     // MatIconModule,
     // FontAwesomeModule,
     // AngularFontAwesomeModule
 
   ],
-  exports: [LoginComponent, NavbarComponent]
+  exports: [LoginComponent, NavbarComponent,MainComponent]
 })
 export class HomeModule { }

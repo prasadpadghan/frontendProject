@@ -1,0 +1,222 @@
+{
+    "employee":[
+        {
+            "eid":1,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":2,
+            "efname":"pradeep",
+            "elname":"padghonde",
+            "egender":"male",
+            "eage":24,
+            "emob":5465789865,
+            "eemail":"pradeeppadghonde94@gmail.com",
+            "euser":"pradeep@123",
+            "epassword":"Pradeep@123#",
+            "eaddress":"karvenagar, pune -400100"
+        },
+        {
+            "eid":3,
+            "efname":"pratiksha",
+            "elname":"pendhe",
+            "egender":"female",
+            "eage":37,
+            "emob":5465789865,
+            "eemail":"pratikshapendhe@gmail.com",
+            "euser":"pratiksha@123",
+            "epassword":"Pratiksha@123#",
+            "eaddress":"baner, aurnagabad -410011"
+        },
+        {
+            "eid":4,
+            "efname":"nikita",
+            "elname":"mane",
+            "egender":"female",
+            "eage":31,
+            "emob":5465789865,
+            "eemail":"nikitamane@gmail.com",
+            "euser":"nikita@123",
+            "epassword":"Nikita@123#",
+            "eaddress":"badnapur, badnapur -411104"
+        },
+        {
+            "eid":5,
+            "efname":"ishwar",
+            "elname":"nikam",
+            "egender":"male",
+            "eage":25,
+            "emob":5465789865,
+            "eemail":"ishwarnikam@gmail.com",
+            "euser":"ishwar@123",
+            "epassword":"Ishwar@123#",
+            "eaddress":"hingoli, hingoli-4441022"
+        },
+        {
+            "eid":6,
+            "efname":"shweta",
+            "elname":"mendhe",
+            "egender":"female",
+            "eage":21,
+            "emob":5465789865,
+            "eemail":"shwetamendhe@gmail.com",
+            "euser":"shweta@123",
+            "epassword":"Shweta@123#",
+            "eaddress":"wasmat, wasmat -412304"
+        },
+        {
+            "eid":7,
+            "efname":"nikesh",
+            "elname":"mathhadevaru",
+            "egender":"male",
+            "eage":35,
+            "emob":5465789865,
+            "eemail":"nikeshmathdevaru@gmail.com",
+            "euser":"nikesh@123",
+            "epassword":"Nikesh@123#",
+            "eaddress":"nagpur, nagpur -451457"
+        },
+        {
+            "eid":8,
+            "efname":"abhilasha",
+            "elname":"bhosale",
+            "egender":"female",
+            "eage":40,
+            "emob":5465789865,
+            "eemail":"abhilashabhosale@gmail.com",
+            "euser":"abhilasha@123",
+            "epassword":"Abhilasha@123#",
+            "eaddress":"mumbai, mumbai -400001"
+        },
+        {
+            "eid":9,
+            "efname":"dnyaneshwae",
+            "elname":"borade",
+            "egender":"male",
+            "eage":29,
+            "emob":5465789865,
+            "eemail":"dnyaneswarborade@gmail.com",
+            "euser":"dnyaneshwar@123",
+            "epassword":"Dnyaneshwar@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":10,
+            "efname":"vaishakh",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":33,
+            "emob":5465789865,
+            "eemail":"vaishakhpadghan94@gmail.com",
+            "euser":"vaishakh@123",
+            "epassword":"Vaishakh@123#",
+            "eaddress":", pune -400100"
+        },
+        {
+            "eid":11,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":12,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":13,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":14,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":15,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        },
+        {
+            "eid":16,
+            "efname":"prasad",
+            "elname":"padghan",
+            "egender":"male",
+            "eage":27,
+            "emob":5465789865,
+            "eemail":"prasadpadghan94@gmail.com",
+            "euser":"prasad@123",
+            "epassword":"Prasda@123#",
+            "eaddress":"chikhali, pune -400100"
+        }
+
+
+    ],
+    "customer" :[
+        {
+            "cid":1,
+            "cfname":"deva",
+            "clname":"mote",
+            "cgender":"male",
+            "cage":41,
+            "cmobile":4578456845,
+            "cemail":"devamote@gmail.com",
+            "cuser":"deva@123",
+            "cpassword":"Deva@123#",
+            "caddress":{
+                "line1":"chikhali",
+                "line2":"chinchwad",
+                "area":"Pimpri-Chinchwad",
+                "city":"pune",
+                "pincode":451654,
+                "state":"maharastra"
+            },
+            "wishlist":"product1",
+            "orderhistory":"order1"
+
+        }
+    ]
+}

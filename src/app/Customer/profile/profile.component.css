@@ -1,0 +1,28 @@
+.page{
+
+    background-color: rgb(82, 192, 211);
+}
+img{
+    display: block;
+    /* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+height: 6rem;
+margin-top: 10px;
+}
+.main{
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+
+.maincs{
+/* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prodlist{
+background-color: rgba(88, 99, 138, 0.836);
+height: 150px;
+}

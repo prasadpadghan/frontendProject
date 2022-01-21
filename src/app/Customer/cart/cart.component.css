@@ -1,0 +1,13 @@
+.container-fluid{
+    justify-content: center;
+}
+
+.pro1{
+    height: 10rem;
+    background-color: aquamarine;
+}
+/* .prodlist{
+display: flex;
+flex-direction: row;
+
+} */

@@ -11,12 +11,6 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  subData(val: any) {
-    var data = val.controls;
-    var name = data.name.value;
-    var addre = data.address.value;
-    // "name: " + name + ", " + "Address: " + addre
-    console.log( "name: " + name + ", " + "Address: " + addre);
-  }
+ 
 
 }

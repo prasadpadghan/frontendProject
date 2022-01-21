@@ -1,0 +1,33 @@
+<h1 class="text-secondary text-center">Register New Product</h1>
+<div class="d-flex justify-content-center">
+    <form [formGroup]="pForm" (submit)="onSubmit()">
+      
+        <!--  -->
+        <!-- (change)="onFileSelect($event)"  -->
+
+        <div class="m-2 text-success">
+            <input type="file" formControlName="pimg" >
+        </div>
+        <div class="m-2 text-success">
+            <input type="text" formControlName="ptitle" placeholder="Product Title">
+        </div>
+        <div class="m-2 text-success">
+            <input type="text" formControlName="pbrand" placeholder="Brand Name">
+        </div>
+        <div class="m-2 text-success">
+            <input type="text" formControlName="pprise" placeholder="Product Price">
+        </div>
+        <div class="m-2 text-success">
+            <!-- <input type="comment" formControlName="pdiscription" placeholder="Product Discription">  -->
+            <textarea formControlName="pdiscription" placeholder="Product Discription" id="" cols="30"
+                rows="5"></textarea>
+        </div>
+        <div *ngIf="pimgData">
+            <img [src]="pimgData" [alt]="pForm.value.ptitle">
+
+        </div>
+        <div class="m-2 text-success">
+            <input type="submit" value="Add Product" class="btn btn-warning">
+        </div>
+    </form>
+</div>

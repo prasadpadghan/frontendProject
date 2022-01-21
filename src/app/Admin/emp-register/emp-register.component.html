@@ -1,0 +1,105 @@
+<div class="customerRegister">
+    <div class="container-fluid border border-dark roundede">
+        <h1 class="fs-1 mt-2 p-1 text-center">Employee Registeration Form</h1>
+        <h3 class="text-center text-danger p-2">
+            * Please fill all the neccesory fields given below
+        </h3>
+        <h3 class="alert alert-success" *ngIf="datasaved">{{message}} </h3>
+        <div class="col-12">
+            <form [formGroup]="empregister" action="" class="float-center" (ngSubmit)="onSubmit()">
+                <h3 class="ps-5 ms-2">Employee Details:</h3> 
+                <div class="d-flex justify-content-evenly pb-2">
+                    <div class="form-floating col-4">
+                        <input type="text" formControlName="efname" id="ef1" 
+                            placeholder="First Name" class="form-control"  required />
+                        <label for="ef1">Full name</label>
+                    </div>
+                    <div class="form-floating col-4">
+                        <input type="text" formControlName="mobno"  id="emn"
+                            placeholder="mobile no" class="form-control"  required />
+                        <label for="emn">Mobile No.</label>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-evenly pb-2">
+                    <div class="form-floating col-4">
+                        <input type="email" formControlName="eemail" id="ee"  placeholder="Enter your email"
+                            class="form-control"  required />
+                        <label for="ee"> Email</label>
+                    </div>
+                    <div class="form-floating col-4">
+                        <input type="text" id="eun" formControlName="euname"  placeholder="Enter unique Username"
+                            class="form-control"  required />
+                        <label for="eun"> Username</label>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-evenly pb-2">
+                    <div class="form-floating col-4">
+                        <input type="password" id="eps" formControlName="epass" 
+                            placeholder="Password" class="form-control"  required />
+                        <label for="eps">Password</label>
+                    </div>
+                    <div class="form-floating col-4">
+                        <input type="password" id="ecps" name="eapass" 
+                            placeholder="comfirm Password" class="form-control"  required />
+                        <label for="ecps">Confirm Password</label>
+                    </div>
+                </div>
+
+                <div class="d-flex ps-5 ms-2 pb-2">
+                    <h3 class="">Address:</h3>
+                    <div class="form-floating ms-1">
+                        <input type="text" id="eadd" formControlName="eaddress" placeholder="address line" class="form-control"
+                            required />
+                        <label for="eadd">Address</label>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-evenly pb-2">
+                    <div class="form-floating col-4">
+                        <input type="text" id="zip" formControlName="epincode" placeholder="pincode" class="form-control" 
+                            required />
+                        <label for="zip">PinCode</label>
+                    </div>
+                    <div class="form-floating col-4">
+                        <input type="text" id="st" formControlName="esatate" placeholder="state" class="form-control" 
+                            required />
+                        <label for="st">State:</label>
+                    </div>
+                </div>
+                <div class="d-flex pb-2 mt-2">
+                    <h3 class="ps-5 ms-2">Gender:</h3>
+                    <div class=" col-lg-4 ps-3">
+                        <div class="row">
+                            <div class="d-flex">
+                                <div class="form-floating col-lg-5">
+                                    <input type="text" formControlName="egender" id="eg" 
+                                        placeholder="enter gender" class="form-control"  required>
+                                    <label for="eg">Gender</label>
+                                </div>
+
+                                <h3 class="ps-4">Age:</h3>
+
+                                <div class="form-floating ps-2 ms-3 col-lg-5">
+
+                                    <input type="text" formControlName="eage" id="eag"  
+                                        placeholder="enter age" class="form-control" required>
+                                    <label for="eg">Age</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="ps-2 ms-2">Date of Joining:</h3>
+                    <div class=" col-lg-4 ps-2">
+                        <div class="form-floating">
+                            <input type="date" id="cdj"  formControlName="ejoiningDate" placeholder="jining date"
+                                class="form-control"  required />
+                            <label for="cdj">Joining date:</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group text-center pb-2">
+                    <input type="submit"  [disabled]="!empregister.valid" class="btn btn-warning" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

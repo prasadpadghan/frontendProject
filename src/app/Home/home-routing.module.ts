@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { ErrorComponent } from './error/error.component';
 import { ProfileComponent } from '../Customer/profile/profile.component';
 import { CartComponent } from '../Customer/cart/cart.component';
+import { EmpRegisterComponent } from '../Admin/emp-register/emp-register.component';
 
 const routes: Routes = [
   {
@@ -44,6 +45,10 @@ const routes: Routes = [
   {
     path:'profile',
     component:ProfileComponent
+  },
+  {
+    path:"empForm",
+    component:EmpRegisterComponent
   },
   {
     path:'register',
